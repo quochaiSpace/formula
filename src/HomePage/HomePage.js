@@ -1,6 +1,7 @@
 import HeaderFormula from "./Header/HeaderFormula";
 import Experience from "./Experience/Experience";
 import AboutFormula from './About/AboutFormula';
+import Footer from "./Footer/Footer";
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
             <HeaderFormula />
             <Experience />
             <AboutFormula />
+            <Footer />
         </div>
     )
 }

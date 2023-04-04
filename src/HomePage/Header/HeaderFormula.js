@@ -2,9 +2,13 @@ import './HeaderFromula.scss'
 import video from '../../assets/video/Hero-desktop.310b79d6.mp4'
 import logo from '../../assets/images/logo.png'
 import arow from '../../assets/images/doubleArrow.png'
-import about from '../../assets/images/About.jpg'
+// import about from '../../assets/images/About.jpg'
 import aboutRow from '../../assets/images/aboutRow.png';
 import car from '../../assets/images/About_mobile_car.png'
+import icon1 from '../../assets/images/icon-1.png';
+import icon2 from '../../assets/images/icon-2.png';
+import icon3 from '../../assets/images/icon-3.png';
+import icon4 from '../../assets/images/icon-4.png';
 
 
 const HeaderFormula = () => {
@@ -28,14 +32,35 @@ const HeaderFormula = () => {
                         </div>
 
                     </div>
+                    { /* Responsive*/}
+                    {/* <div className='content-icon'>
+                        <div className='view-img-icon'>
+                            <img className='img-icon' src={icon1} />
+                        </div>
+                        <div className='view-img-icon'>
+                            <img className='img-icon' src={icon2} />
+                        </div>
+                        <div className='view-img-icon'>
+                            <img className='img-icon' src={icon3} />
+                        </div>
+                        <div className='view-img-icon'>
+                            <img className='img-icon' src={icon4} />
+                        </div>
+
+                    </div> */}
                 </div>
+
+
+
             </div>
 
-            <div className='about-container'>
+
+
+
+            <div className='about-container-header'>
                 <div className='about-content'>
                     <div className='view-about-content'>
-                        <img className='img-about-content' src={about} />
-
+                        {/* <img className='img-about-content' src={about} /> */}
                         <div className='about-right-content'>
                             <img className='img-about-rectangle' src={aboutRow} />
                             <div className='flex-collum'>

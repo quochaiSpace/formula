@@ -19,7 +19,7 @@ const Experience = () => {
             {/* The Experience 1*/}
             <div className="Experience-container">
                 <div className='Experience-content' >
-                    <img className='img-experience' src={bg} />
+                    {/* <img className='img-experience' src={bg} /> */}
 
                     <div className='the-experience'>
                         <img className='img-arow' src={arow} />
@@ -31,9 +31,9 @@ const Experience = () => {
 
 
                     {/* section 1 */}
-                    {/* <div className='feature-cards'> */}
+                    <div className='feature-cards'>
 
-                    {/* <div className='section-content-1'>
+                        <div className='section-content-1'>
                             <img className='img-card-1' src={card1} />
 
                             <h1 className='text-01'> 01.</h1>
@@ -49,10 +49,10 @@ const Experience = () => {
                                     <p className='text-bottom'>Be the Team Principal, strategically decide how you want to develop your own Formula E Team.</p>
                                 </span>
                             </div>
-                        </div> */}
+                        </div>
 
-                    {/* section 2 */}
-                    {/* <div className='section-content-2'>
+                        {/* section 2 */}
+                        <div className='section-content-2'>
                             <img className='img-card-1' src={card2} />
 
                             <h1 className='text-01'> 02.</h1>
@@ -68,13 +68,14 @@ const Experience = () => {
                                     <p className='text-bottom'>Play-and-Earn is simple. What you earn through play can be used to enhance your assets in the form of currencies and NFTs. The more you play, the more options you have to advance.</p>
                                 </span>
                             </div>
-                        </div> */}
+                        </div>
 
 
 
-                    {/* section 3 */}
-                    {/* <div className='section-content-3'>
+                        {/* section 3 */}
+                        <div className='section-content-3'>
                             <img className='img-card-1' src={card3} />
+
 
                             <h1 className='text-01'> 03.</h1>
 
@@ -89,25 +90,26 @@ const Experience = () => {
                                     <p className='text-bottom'>Be the Team Principal, strategically decide how you want to develop your own Formula E Team.</p>
                                 </span>
                             </div>
-                        </div> */}
+                        </div>
 
-                    {/* </div> */}
-
+                    </div>
 
 
 
 
                     {/* Crop photo */}
-                    <div className='section-container'>
+                    {/* <div className='section-container'>
                         <div className='section-content'>
                             <img className='img-section-1' src={section1} />
                             <img className='img-section-1' src={section1} />
                             <img className='img-section-1' src={section1} />
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </div>
+
+
             </div>
 
 
@@ -116,7 +118,7 @@ const Experience = () => {
             {/* The Experience 2*/}
             <div className='Experience-container-2'>
                 <div className='Experience-content-2'>
-                    <img className='img-experience-2' src={bg2} />
+                    {/* <img className='img-experience-2' src={bg2} /> */}
 
                     <div className='the-experience'>
                         <img className='img-arow' src={arow} />
@@ -129,7 +131,7 @@ const Experience = () => {
 
                     <div className='feature-cards-2'>
                         {/* section 4 */}
-                        <div className='section-content-1'>
+                        <div className='section-content-4'>
                             <img className='img-card-1' src={card4} />
 
                             <h1 className='text-01'> 04.</h1>
@@ -148,7 +150,7 @@ const Experience = () => {
                         </div>
 
                         {/* section 5 */}
-                        <div className='section-content-2'>
+                        <div className='section-content-5'>
                             <img className='img-card-1' src={card5} />
                             <h1 className='text-01'> 05.</h1>
 
@@ -167,7 +169,7 @@ const Experience = () => {
 
 
                         {/* section 6 */}
-                        <div className='section-content-3'>
+                        <div className='section-content-6'>
                             <img className='img-card-1' src={card6} />
 
                             <h1 className='text-01'> 06.</h1>

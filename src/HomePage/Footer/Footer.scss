@@ -1,0 +1,318 @@
+.footer-container {
+    width: 100%;
+    height: 40vh;
+    // border:  1px solid red;
+
+    .footer-content {
+        height: 100%;
+        background: url('../../assets/images/bg-footer-1.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+
+        .text-title {
+            margin: 0;
+            font-size: 37px;
+            font-family: "Formula E Title";
+            font-style: normal;
+            font-weight: 600;
+            line-height: 53px;
+            letter-spacing: .05em;
+            color: white;
+            
+        }
+
+        .content-input {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+
+            .input {
+                border: none;
+                padding: 0 0 0 30px;
+                width: 360px;
+                height: 46px;
+                outline: none;
+                background-color: #fff;
+                color: #31333c;
+                font-size: 15px;
+                font-family: inherit;
+            }
+
+            .btn-sub {
+                background-color: #14b7ed;
+                border: none;
+                width: 100px;
+                color: white;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 12px;
+                letter-spacing: 0;
+                cursor: pointer;
+            }
+        }
+
+        .content-text {
+            padding: 15px 390px;
+            // text-align-last: left;
+            display: flex;
+            place-content: center;
+        }
+
+        .input-check{
+            height: 20px;
+            width: 25px;
+        }
+
+            .text-p {
+                color: white;
+                opacity: .7;
+                text-align: left;
+            }
+        }
+    }
+
+
+
+
+//footer 2
+.footer-container-2 {
+    width: 100%;
+    height: 50vh;
+    // border:  1px solid green;
+    display: flex;
+    flex-direction: column;
+    background-color: #31333c;
+
+    .footer-content-2 {
+        // height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+
+        .content-left {
+            display: flex;
+            // flex-direction: row;
+            // position: absolute;
+            margin-top: 20px;
+
+            .img-foter-right-revv {
+                height: 50px;
+                margin-left: 10px;
+            }
+
+           
+            .view-img-foter {
+                display: flex;
+                
+                .img-foter-right-amin {
+                    height: 50px;
+                    margin-left: 20px;
+                }
+    
+                .view-text-right {
+                    margin-top: 20px;
+                    padding-left: 20px;
+
+                    .text-foter-right {
+                        text-decoration: underline;
+                        color: white;
+                    }
+                }
+            }
+              
+            
+
+         
+        }
+
+        .content-right {
+            // width: 62%;
+            justify-content: flex-end;
+            gap: 15px;
+            padding: 30px 35px;
+            display: flex;
+
+            .view-img-icon {
+                height: 50px;
+                width: 50px;
+                /* border: 1px solid red; */
+                border-radius: 50%;
+                background-color: #464850;
+                text-align-last: center;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #3c0050;
+                }
+
+                .img-icon {
+                    margin-top: 10px;
+                    width: 30px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .view-text-bottom {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        .text-bottom-1 {
+            margin: 0;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0;
+            color: #bab8b8;
+        }
+        .text-bottom-2 {
+            margin-top: 10px;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0;
+            color: #bab8b8;
+        }
+        .text-bottom-3 {
+            margin-top: 10px;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0;
+            color: #bab8b8;
+        }
+    }
+}
+
+
+
+//responsive
+@media screen and(max-width:850px) {
+    .footer-container {
+        width: 100%;
+        height: 50vh;
+
+        .footer-content {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            place-content: center;
+
+           .view-text-title {
+                margin-top: 15px;
+
+                .text-title {
+                    font-size: 24px;
+                    font-family: "Formula E Title";
+                    font-weight: 600;
+                    letter-spacing: 0.05em;
+                    color: white;
+                    line-height: 30px;
+                }
+           }
+
+           .content-input {
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .input {
+                    border: none;
+                    width: 250px;
+                    height: 33px;
+                    outline: none;
+                    background-color: #fff;
+                    color: #31333c;
+                    font-size: 15px;
+                    font-family: inherit;
+                }
+
+                .btn-sub {
+                    background-color: #14b7ed;
+                    border: none;
+                    width: 120px;
+                    height: 33px;
+                    color: white;
+                    font-weight: 700;
+                    cursor: pointer;
+                    margin-top: 8rem;
+                }
+           }
+           .content-text {
+                display: flex;
+                position: absolute;
+                margin-top: 10rem;
+                padding: 10px;
+
+               
+                .input-check{
+                    height: 14px;
+                    width: 55px;
+                }
+                
+                .text-p {
+                    color: white;
+                    opacity: 0.7;
+                    font-size: 13px;
+                }
+           }
+        }
+    }
+
+    .footer-container-2 {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: #31333c;
+
+        .footer-content-2 {
+            display: flex;
+            flex-direction: column;
+
+            .content-left {
+                display: flex;
+                margin-top: 20px;
+                justify-content: center;
+
+                .view-img-foter {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .view-text-right {
+                        margin-top: 10px;
+                        padding-left: 0px;
+
+                    }
+                }
+            }
+
+            .content-right {
+                
+                padding: 0px;
+                display: flex;
+                align-self: center;
+                margin-top: 30px;
+
+              
+            }
+        }
+    }
+
+    .view-text-bottom {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
